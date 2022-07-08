@@ -12,13 +12,6 @@ export default function initScrollSuave() {
       behavior: "smooth",
       block: "start",
     });
-
-    //FORMA ALTERNATIVA
-    /*   const topo = section.offsetTop;
-  window.scrollTo({
-    top: topo,
-    behavior: "smooth",
-  }); */
   }
 
   linksInternos.forEach((links) => {
