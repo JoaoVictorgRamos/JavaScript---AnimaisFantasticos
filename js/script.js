@@ -9,6 +9,7 @@ import initMenuMobile from "../js/modules/menu-mobile.js";
 import initFuncionamento from "../js/modules/funcionamento.js";
 import initFecthAnimais from "../js/modules/fetch-animais.js";
 import initFetchBitcoin from "../js/modules/fetch-bitcoins.js";
+import SlideNav from "../js/slide.js";
 
 initScrollSuave();
 initAnimacaoScroll();
@@ -21,3 +22,7 @@ initMenuMobile();
 initFuncionamento();
 initFecthAnimais();
 initFetchBitcoin();
+
+const slide = new SlideNav(".slide", ".slide-wrapper");
+slide.init();
+slide.addControl(".custom-controls");
